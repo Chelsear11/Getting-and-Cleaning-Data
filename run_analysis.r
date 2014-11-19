@@ -40,7 +40,6 @@ subject.activity <- unique(all.data[c("subject", "activity")]) # export unique c
 summary(subject.activity$activity) # each activity was performed by all 30 participants
 
 # ======================================================================
-# Step 4: appropriately label the data set with descriptive variable names (from features.txt)
 # Step 2: extract only means and std for each measurement
 
 # This selects only the mean and std for the signals "used to estimate variables of the 
@@ -49,6 +48,8 @@ summary(subject.activity$activity) # each activity was performed by all 30 parti
 # sample" because they seemed irrelevant
 data.mean.std <- all.data[, grepl("activity|subject|mean[^Freq]()|std()", names(all.data))]
 
+# =========================================================================
+# Step 4: appropriately label the data set with descriptive variable names (from features.txt)
 # change names of columns to be more descriptive and a bit cleaner using features_info
 colnames(data.mean.std) <- gsub("()", "", colnames(data.mean.std), fixed = TRUE)
 colnames(data.mean.std) <- gsub("-", "", colnames(data.mean.std), fixed = TRUE)
@@ -65,8 +66,7 @@ colnames(with.activity.labels)[1] <- "activity"
 with.activity.labels$activity <- tolower(with.activity.labels$activity)
 with.activity.labels$activity <- as.factor(with.activity.labels$activity)
 
-# =======================================================================
-# make data set tidy by having each row be an independent data point
+# TIDY DATA - make data set tidy by having each row be an independent data point
 melted.data <- melt(with.activity.labels, id = c("subject", "activity"))
 melted.data$subject <- as.factor(melted.data$subject)
 

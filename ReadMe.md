@@ -13,6 +13,7 @@ The files used for this analysis are:
 The output from this script is a tidy dataset.
   
 This data is a tidy data set because it follows the principles of tidy data:
+
 1. Each measured variable is in one column (subject id, activity, variable, meanValue)
 2. Each different observation of that variable is in a different row (ie each row has a unique combination of the columns)
 3. There is only one table because there is only 1 "kind" of variable (ie motion measurements for the subjects)

@@ -1,5 +1,4 @@
 ## Code book for tidy data set for Coursera Getting and Cleaning Data course project
-===========================
 
 The data for this project were obtained from accelerometers from the Samsung Galary S smartphone. 
 More information about the study can be found http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
@@ -9,19 +8,19 @@ This markdown file modifies features_info.txt obtained from above dataset
 
 ## Data Dictionary - tidydata.txt
 
-# subject - assigned values of 1-30, each participant in the study has a unique number
+subject - assigned values of 1-30, each participant in the study has a unique number
 
-# activity - activity that the subject was performing when data were obtained
-  laying
-  sitting
-  standing
-  walking
-  walking_downstairs
-  walking_upstairs
+activity - activity that the subject was performing when data were obtained
+  *laying
+  *sitting
+  *standing
+  *walking
+  *walking_downstairs
+  *walking_upstairs
 
-# measurementDescription - measurement taken from subject during the activity (see below for full explanation of measurement Descriptions)
+measurementDescription - measurement taken from subject during the activity (see below for full explanation of measurement Descriptions)
 
-# meanValue - average value for each subject, activity, and measurementDescription
+meanValue - average value for each subject, activity, and measurementDescription
 
 Measurement Descriptions
 ========================
@@ -35,31 +34,31 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (timeBodyAccMag, timeGravityAccMag, timeBodyAccJerkMag, timeBodyGyroMag, timeBodyGyroJerkMag). 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing:
-  FourierBodyAcc-XYZ
-  FourierBodyAccJerk-XYZ
-  FourierBodyGyro-XYZ
-  FourierBodyAccJerkMag
-  FourierBodyGyroMag
-  FourierBodyGyroJerkMag 
+  *FourierBodyAcc-XYZ
+  *FourierBodyAccJerk-XYZ
+  *FourierBodyGyro-XYZ
+  *FourierBodyAccJerkMag
+  *FourierBodyGyroMag
+  *FourierBodyGyroJerkMag 
 
 These signals were used to estimate the mean and standard deviation of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions, and Mean or Std was added to the name to 
 indicate whether it is a mean or standard deviation
 
-timeBodyAcc-XYZ
-timeGravityAcc-XYZ
-timeBodyAccJerk-XYZ
-timeBodyGyro-XYZ
-timeBodyGyroJerk-XYZ
-timeBodyAccMag
-timeGravityAccMag
-timeBodyAccJerkMag
-timeBodyGyroMag
-timeBodyGyroJerkMag
-FourierBodyAcc-XYZ
-FourierBodyAccJerk-XYZ
-FourierBodyGyro-XYZ
-FourierBodyAccMag
-FourierBodyAccJerkMag
-FourierBodyGyroMag
-FourierBodyGyroJerkMag
+*timeBodyAcc-XYZ
+*timeGravityAcc-XYZ
+*timeBodyAccJerk-XYZ
+*timeBodyGyro-XYZ
+*timeBodyGyroJerk-XYZ
+*timeBodyAccMag
+*timeGravityAccMag
+*timeBodyAccJerkMag
+*timeBodyGyroMag
+*timeBodyGyroJerkMag
+*FourierBodyAcc-XYZ
+*FourierBodyAccJerk-XYZ
+*FourierBodyGyro-XYZ
+*FourierBodyAccMag
+*FourierBodyAccJerkMag
+*FourierBodyGyroMag
+*FourierBodyGyroJerkMag

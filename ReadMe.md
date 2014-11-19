@@ -10,7 +10,7 @@ The files used for this analysis are:
 * activity_labels.txt - table that defines the activity id in Y_train and Y_test
 * features.txt - table that defines the column names (observation type) in X_test and X_train
  
-The output from this script is a tidy dataset.
+The output from this script is a tidy dataset that provides the average of the average and standard deviation measurements by subject and activity.
   
 This data is a tidy data set because it follows the principles of tidy data:
 
@@ -20,7 +20,7 @@ This data is a tidy data set because it follows the principles of tidy data:
 4. Each row at the top of the table has variable names
 5. Variable names are easy to understand
  
-This tidy data set provides the average of the average and standard deviation measurements by subject and activity using the following steps:
+The script accomplishes these tasks using the following steps (see r script for more detail):
 
 1. Renamed the columns of x.train and x.test using features
 2. Combined the test and training datasets with the activity_labels

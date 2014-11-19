@@ -8,19 +8,19 @@ This markdown file modifies features_info.txt obtained from above dataset
 
 ## Data Dictionary - tidydata.txt
 
-1. subject - assigned values of 1-30, each participant in the study has a unique number
+subject - assigned values of 1-30, each participant in the study has a unique number
 
-2. activity - activity that the subject was performing when data were obtained
-  *laying
-  *sitting
-  *standing
-  *walking
-  *walking_downstairs
-  *walking_upstairs
+activity - activity that the subject was performing when data were obtained
+  * laying
+  * sitting
+  * standing
+  * walking
+  * walking_downstairs
+  * walking_upstairs
 
-3. measurementDescription - measurement taken from subject during the activity (see below for full explanation of measurement Descriptions)
+measurementDescription - measurement taken from subject during the activity (see below for full explanation of measurement Descriptions)
 
-4. meanValue - average value for each subject, activity, and measurementDescription
+meanValue - average value for each subject, activity, and measurementDescription
 
 Measurement Descriptions
 ========================

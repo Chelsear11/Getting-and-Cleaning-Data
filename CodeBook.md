@@ -1,4 +1,4 @@
-## Code book for tidy data set for Coursera Getting and Cleaning Data course project
+# Code book for tidy data set for Coursera Getting and Cleaning Data course project
 
 The data for this project were obtained from accelerometers from the Samsung Galary S smartphone. 
 More information about the study can be found http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
@@ -22,7 +22,7 @@ measurementDescription - measurement taken from subject during the activity (see
 
 meanValue - average value for each subject, activity, and measurementDescription
 
-Measurement Descriptions
+### Measurement Descriptions
 ========================
 
 The measurements selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
@@ -34,31 +34,31 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (timeBodyAccMag, timeGravityAccMag, timeBodyAccJerkMag, timeBodyGyroMag, timeBodyGyroJerkMag). 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing:
-  *FourierBodyAcc-XYZ
-  *FourierBodyAccJerk-XYZ
-  *FourierBodyGyro-XYZ
-  *FourierBodyAccJerkMag
-  *FourierBodyGyroMag
-  *FourierBodyGyroJerkMag 
+  * FourierBodyAcc-XYZ
+  * FourierBodyAccJerk-XYZ
+  * FourierBodyGyro-XYZ
+  * FourierBodyAccJerkMag
+  * FourierBodyGyroMag
+  * FourierBodyGyroJerkMag 
 
 These signals were used to estimate the mean and standard deviation of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions, and Mean or Std was added to the name to 
 indicate whether it is a mean or standard deviation
 
-*timeBodyAcc-XYZ
-*timeGravityAcc-XYZ
-*timeBodyAccJerk-XYZ
-*timeBodyGyro-XYZ
-*timeBodyGyroJerk-XYZ
-*timeBodyAccMag
-*timeGravityAccMag
-*timeBodyAccJerkMag
-*timeBodyGyroMag
-*timeBodyGyroJerkMag
-*FourierBodyAcc-XYZ
-*FourierBodyAccJerk-XYZ
-*FourierBodyGyro-XYZ
-*FourierBodyAccMag
-*FourierBodyAccJerkMag
-*FourierBodyGyroMag
-*FourierBodyGyroJerkMag
+* timeBodyAcc-XYZ
+* timeGravityAcc-XYZ
+* timeBodyAccJerk-XYZ
+* timeBodyGyro-XYZ
+* timeBodyGyroJerk-XYZ
+* timeBodyAccMag
+* timeGravityAccMag
+* timeBodyAccJerkMag
+* timeBodyGyroMag
+* timeBodyGyroJerkMag
+* FourierBodyAcc-XYZ
+* FourierBodyAccJerk-XYZ
+* FourierBodyGyro-XYZ
+* FourierBodyAccMag
+* FourierBodyAccJerkMag
+* FourierBodyGyroMag
+* FourierBodyGyroJerkMag
